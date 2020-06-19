@@ -29,7 +29,7 @@ h1{
 }
 
 p{
-    margin-top: 8px;
+    margin: 8px;
 }
 
 div.grey{
@@ -47,12 +47,6 @@ div.grey{
 
 .lightyellow{
     background-color: rgb(196, 196, 69);
-}
-
-
-
-.main{
-    margin-left: 10px;
 }
 
 .box-wrapper{
