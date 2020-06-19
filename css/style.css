@@ -6,6 +6,7 @@ h1{
     text-align: center;
     margin-bottom: 30px;
     margin-top: 50px;
+    font-size: 300%;
 }
 * {
     box-sizing: border-box;
@@ -14,22 +15,24 @@ h1{
 }
 
 .box{
-    width: 350px;
+    width: 20%;
     border: 2px solid black;
 }
 
 
-#right{
+.right{
     border: 1px solid black;
     position: relative;
-    left:200px;
-    width:147px;
+    width: 50%;
     text-align: center;
-    margin:0px;
+    margin: 0px;
+    float: right;
+    font-size: 150%;
 }
 
-p{
-    margin: 8px;
+p.clear{
+    clear: both;
+    padding: 5px;
 }
 
 div.grey{
