@@ -1,0 +1,63 @@
+body{
+    font-family:'Raleway', sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0p;
+}
+
+.box{
+    width: 350px;
+    border: 2px solid black;
+}
+
+
+#right{
+    border: 1px solid black;
+    position: relative;
+    left:200px;
+    width:147px;
+    text-align: center;
+    margin:0px;
+}
+
+p{
+    margin-top: 8px;
+}
+
+div.grey{
+    background-color: grey;
+}
+
+.skin{
+    background-color: sandybrown;
+}
+
+.red{
+    background-color:maroon;
+    color: white;
+}
+
+.lightyellow{
+    background-color: rgb(196, 196, 69);
+}
+
+
+
+.main{
+    margin-left: 10px;
+}
+
+.box-wrapper{
+
+        display: flex;
+        justify-content: space-evenly;
+
+}
